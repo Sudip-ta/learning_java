@@ -16,5 +16,13 @@ public class TwoDArrays{
             }
             System.out.println();
         }
+
+        //Enhanced for loop used
+        for(int n[] : nums){
+            for(int element : n){
+                System.out.print(element+" ");
+            }
+            System.out.println();
+        }
     }
 }
