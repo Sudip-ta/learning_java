@@ -1,3 +1,4 @@
+package Inheritance;
 class Calculator{
     public int add(int a, int b){
         return a + b;
@@ -7,7 +8,6 @@ class Calculator{
         return a - b;
     }
 }
-
 class AdvancedCalculator extends Calculator{
     public int multiply(int a, int b){
         return a * b;
