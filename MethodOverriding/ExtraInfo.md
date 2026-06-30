@@ -6,13 +6,13 @@ A reference variable isn't only a blind pointer. it's a promise of what we can f
 
 Suppose we have two complete unrelated class Dog and Car
 
-`class Dog {
+```class Dog {
     void bark() { System.out.println("Woof!"); }
 }
 
 class Car {
     void accelerate() { System.out.println("Vroom!"); }
-}`
+}```
 
 If Java allowed you to do this:
 
