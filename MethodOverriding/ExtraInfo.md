@@ -12,7 +12,7 @@ Suppose we have two complete unrelated class Dog and Car
 
 class Car {
     void accelerate() { System.out.println("Vroom!"); }
-}```
+```}
 
 If Java allowed you to do this:
 
